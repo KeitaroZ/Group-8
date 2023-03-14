@@ -1,13 +1,11 @@
 /*Header*/
-
 header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 9999;
-    background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #001429!important;
 }
 nav ul {
     list-style: none;
@@ -18,7 +16,7 @@ nav ul {
     align-items: center;
     font-family: Arial, sans-serif;
     font-size: 18px;
-    background-color: white;
+    
     color: white;
     height: 0px;
 }
@@ -30,14 +28,20 @@ nav a {
     padding: 10px;
     text-decoration: none;
     color: white;
+    
     transition: color 0.2s ease-in-out;
 }
 nav a:hover {
-    color: #E6D1C9;
+    
+    color:#E6D1C9!important;
+    background: #001429;
+    transition: all 0.8s;
+    font-weight: bold;
 }
 nav ul ul {
     display: none;
     position: absolute;
+    width: 150px;
     top: 100%;
     left: 0;
     background-color: white;
@@ -46,12 +50,13 @@ nav ul ul {
 }
 nav ul ul li {
     display: block;
-    padding: 10px;
+    
     background-color: white;
 }
 nav ul ul li a {
     color: #333;
     text-decoration: none;
+    font-size: 15px;
     transition: color 0.2s ease-in-out;
 }
 nav ul ul li a:hover {
@@ -59,6 +64,9 @@ nav ul ul li a:hover {
 }
 nav ul li:hover > ul {
     display: block;
+}
+.nav-link {
+  font-size: 15px;
 }
 
 /*Sign in*/
@@ -129,3 +137,80 @@ input[type="submit"]:hover {
 .register-link a:hover {
     text-decoration: underline;
 }
+
+/*Footer Style*/
+footer {
+    background-color: #001429;
+    color: white;
+    height: 220px;
+      bottom: 0;
+}
+.about {
+    width: 30%;
+    float: left;
+    margin-left: 200px;
+    margin-top: 20px;
+    text-align: right;
+}
+.about h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #E6D1C9;
+}
+.about p {
+    font-size: 14px;
+    line-height: 1.5em;
+    color: white;
+   
+}
+.contact {
+    width: 50%;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.contact h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #E6D1C9;
+}
+.contact p {
+    font-size: 14px;
+    line-height: .5em;
+    color: white;
+}
+.contact a {
+    color: white;
+    text-decoration: none;
+}
+.contact a:hover {
+    text-decoration: underline;
+}
+.social-icons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  .social-icons a {
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%;
+    transition: transform 0.3s;
+  }
+  
+  .social-icons a:hover {
+    transform: scale(1.2);
+  }
