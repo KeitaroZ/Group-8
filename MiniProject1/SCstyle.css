@@ -2,7 +2,6 @@
   height: 100%;
 }
 
-
 /*Header*/
 
 header {
@@ -71,9 +70,10 @@ nav ul ul li a:hover {
 nav ul li:hover > ul {
     display: block;
 }
-.nav-link{
+.nav-link {
   font-size: 15px;
 }
+
 
 
 /* Hero Section*/
@@ -112,7 +112,6 @@ nav ul li:hover > ul {
 }
 
 /*Footer Style*/
-
 footer {
     background-color: #001429;
     color: white;
