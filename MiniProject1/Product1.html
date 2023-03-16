@@ -49,23 +49,35 @@
     <br>
     <br>
     <br>
-
-    <section>
     <!-- <img src="Product1.jpg" id="image" class="zoom" data-magnify-src="Product1.jpg"> -->
+    <div id="additional-photos">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="H2T1.jpg" class="bordered" alt="Product Image 2">
+        &nbsp;&nbsp;&nbsp;<img src="H2T2.jpg" class="bordered" alt="Product Image 3">
+        &nbsp;&nbsp;&nbsp;<img src="H2T3.jpg" class="bordered" alt="Product Image 4">
+    </div>
+
     <div class="container">
         <img src="Product1.jpg" id="image" class="zoom" data-magnify-src="Product1.jpg" alt="Product Image">
         <h1>Product Name</h1>
         <p class="description">Product Description</p>
         <p class="price">$XX.XX</p>
         <button class="add-to-cart">Add to Cart</button>
-      </div>
+    </div>
+    
+
+
     <script src="magnify.js" charset="UTF-8"></script>
     <script>
         $(document).ready(function() {
           $('.zoom').magnify();
         });
     </script>
-    </section>
+    <script>
+        $('#additional-photos img').click(function() {
+    var newSrc = $(this).attr('src');
+    $('#image').attr('src', newSrc);
+});
+    </script>
 <br>
 <br>
 <br>
