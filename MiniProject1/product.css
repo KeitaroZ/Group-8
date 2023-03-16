@@ -209,3 +209,21 @@ h1 {
 .bordered {
     border: 1px solid black;
 }
+
+/* Size Selector */
+.size-selector {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+  
+.size-selector label {
+    margin-right: 1rem;
+}
+  
+.size-selector select {
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
