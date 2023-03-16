@@ -110,7 +110,6 @@ nav ul li:hover > ul {
     transform: translate(-50%, -50%);
     z-index: 1;
 }
-
 /*Footer Style*/
 footer {
     background-color: #001429;
@@ -453,7 +452,7 @@ label {
 
 .card {
   width: 300px;
-  height: 500px; 
+  height: 600px; 
   overflow: hidden; 
   display: flex; 
   align-items: center;
