@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Product Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <style>
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+  display: flex;
+}
+
+.image-gallery {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-gallery img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.thumbnails {
+  display: flex;
+  margin-top: 20px;
+}
+
+.thumbnails img {
+  width: 100px;
+  height: auto;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.product-details {
+  flex: 1;
+  margin-left: 50px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.add-to-cart {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+  </style>
+  <body>
+    <div class="container">
+      <div class="image-gallery">
+        <img src="Product1.jpg" alt="Product Image">
+        <div class="thumbnails">
+          <img src="H2T1.jpg" alt="Product Image Thumbnail 1">
+          <img src="H2T2.jpg" alt="Product Image Thumbnail 2">
+          <img src="H2T3.jpg" alt="Product Image Thumbnail 3">
+        </div>
+      </div>
+      <div class="product-details">
+        <h1>Product Name</h1>
+        <p class="description">Product Description</p>
+        <p class="price">$XX.XX</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+    <script>
+        var thumbnails = document.querySelectorAll('.thumbnails img');
+var mainImage = document.querySelector('.image-gallery img');
+
+thumbnails.forEach(function(thumbnail) {
+  thumbnail.addEventListener('click', function() {
+    var newImageSrc = this.getAttribute('src');
+mainImage.setAttribute('src', newImageSrc);
+});
+});
+    </script>
+  </body>
+</html>
