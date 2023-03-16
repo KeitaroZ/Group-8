@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Square Closet</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="SCstyle.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    
+    <header>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="SCLogo.png" alt="Logo" height="90"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Kids Closet ▼</a>
+                    <ul>
+                        <li><a href="kids/kidstee/kidstees.html">Boys Tee's</a></li>
+                        <li><a href="kids/kidspants/kidspants.html">Boys Pants</a></li>
+                        <li><a href="kids/kidshoes/kidshoes.html">Boys Shoes</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="SignIn.html">Sign In</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Registration.html">Sign Up</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">🛒</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+   
+    </header>
+    
+    <div class="Container99">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-caption">
+                <h1></h1>
+                <p></p>
+            </div>
+            <div class="hero-slides">
+                <div class="hero-slide active">
+                    <img src="kids/kidstee/kt1.jpg" alt="Slide 1">
+                </div>
+                <div class="hero-slide">
+                    <img src="kids/kidstee/boystee2.jpg" alt="Slide 2">
+                </div>
+                <div class="hero-slide">
+                    <img src="kids/kidspants/khp4.jpg" alt="Slide 3">
+                </div>
+                <div class="hero-slide">
+                    <img src="kids/kidspants/khp1.jpg" alt="Slide 4">
+                </div>
+                <div class="hero-slide">
+                    <img src="kids/kidshoes/HKS1.jpg" alt="Slide 5">
+                </div>
+                <div class="hero-slide">
+                    <img src="kids/kidshoes/HKS2.jpg" alt="Slide 6">
+                </div>
+            </div>
+        </section>
+        <br>
+        <div class="search-container">
+            <form>
+                <label for="search" class="search-label">🔎Search:</label>
+                <input type="text" id="search" name="search" placeholder="Search a Product">&nbsp;&nbsp;
+                <!--<button type="submit" class="search-button" style="color: rgb(3, 3, 3);><i class="fa fa-search"></i>Submit</button>-->
+            </form>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <!-- Featured Products Section -->
+        <section class="featured-products">
+            <div class="container">
+                <h2>Best Sellers</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-img-top">
+                              <img src="kids/kidstee/boystee1.jpg" alt="Image 1">
+                              <img src="kids/kidstee/boystee2.jpg" alt="Image 2" class="hover-img">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Summer Feels Tee</h5>
+                                <p class="card-text">₱560</p>
+                                <a href="#" class="btn btn-primary" style="color: rgba(0, 0, 0, 0.562); background-color: #E6D1C9;">Add to 🛒</a>
+                                <div class="rating">
+                                    <span>Rate this product :</span>
+                                    <input type="radio" name="rating" id="rating-1" value="1">
+                                    <label for="rating-1"></label>
+                                    <input type="radio" name="rating" id="rating-2" value="2">
+                                    <label for="rating-2"></label>
+                                    <input type="radio" name="rating" id="rating-3" value="3">
+                                    <label for="rating-3"></label>
+                                    <input type="radio" name="rating" id="rating-4" value="4">
+                                    <label for="rating-4"></label>
+                                    <input type="radio" name="rating" id="rating-5" value="5">
+                                    <label for="rating-5"></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-img-top">
+                              <img src="kids/kidspants/boyspants1.jpg" alt="Image 1">
+                              <img src="kids/kidspants/boyspants2" alt="Image 2" class="hover-img">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Everyday Jeans</h5>
+                                <p class="card-text">₱800</p>
+                                <a href="#" class="btn btn-primary" style="color: black; background-color: #E6D1C9;">Add to 🛒</a>
+                                <div class="rating2">
+                                    <span>Rate this product :</span>
+                                    <input type="radio" name="rating2" id="rating2-1" value="1">
+                                    <label for="rating2-1"></label>
+                                    <input type="radio" name="rating2" id="rating2-2" value="2">
+                                    <label for="rating2-2"></label>
+                                    <input type="radio" name="rating2" id="rating2-3" value="3">
+                                    <label for="rating2-3"></label>
+                                    <input type="radio" name="rating2" id="rating2-4" value="4">
+                                    <label for="rating2-4"></label>
+                                    <input type="radio" name="rating2" id="rating2-5" value="5">
+                                    <label for="rating2-5"></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                          <div class="card-img-top">
+                            <img src="boys/boyshoes/boyshoes1.jpg" alt="Image 1">
+                            <img src="boys/boyshoes/boyshoes2.jpg" alt="Image 2" class="hover-img">
+                          </div>
+                            <div class="card-body">
+                                <h5 class="card-title">New Kids kicks</h5>
+                                <p class="card-text">₱1,200</p>
+                                <a href="#" class="btn btn-primary" style="color: black; background-color: #E6D1C9;">Add to 🛒</a>
+                                <div class="rating3">
+                                    <span>Rate this product :</span>
+                                    <input type="radio" name="rating3" id="rating3-1" value="1">
+                                    <label for="rating3-1"></label>
+                                    <input type="radio" name="rating3" id="rating3-2" value="2">
+                                    <label for="rating3-2"></label>
+                                    <input type="radio" name="rating3" id="rating3-3" value="3">
+                                    <label for="rating3-3"></label>
+                                    <input type="radio" name="rating3" id="rating3-4" value="4">
+                                    <label for="rating3-4"></label>
+                                    <input type="radio" name="rating3" id="rating3-5" value="5">
+                                    <label for="rating3-5"></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-img-top">
+                              <img src="kids/kidstee/girlstee1.jpg" alt="Image 1">
+                              <img src="kids/kidstee/boystee2.jpg" alt="Image 2" class="hover-img">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Hippy Girl</h5>
+                                <p class="card-text">₱500</p>
+                                <a href="#" class="btn btn-primary" style="color: black; background-color: #E6D1C9;">Add to 🛒</a>
+                                <div class="rating4">
+                                    <span>Rate this product :</span>
+                                    <input type="radio" name="rating4" id="rating4-1" value="1">
+                                    <label for="rating4-1"></label>
+                                    <input type="radio" name="rating4" id="rating4-2" value="2">
+                                    <label for="rating4-2"></label>
+                                    <input type="radio" name="rating4" id="rating4-3" value="3">
+                                    <label for="rating4-3"></label>
+                                    <input type="radio" name="rating4" id="rating4-4" value="4">
+                                    <label for="rating4-4"></label>
+                                    <input type="radio" name="rating4" id="rating4-5" value="5">
+                                    <label for="rating4-5"></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-img-top">
+                              <img src="kids/kidspants/girlspants1.jpg" alt="Image 1">
+                              <img src="kids/kidspants/girlspants2.jpg" alt="Image 2" class="hover-img">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Relaxed Girl</h5>
+                                <p class="card-text">₱700</p>
+                                <a href="#" class="btn btn-primary" style="color: black; background-color: #E6D1C9;">Add to 🛒</a>
+                                <div class="rating5">
+                                    <span>Rate this product :</span>
+                                    <input type="radio" name="rating5" id="rating5-1" value="1">
+                                    <label for="rating5-1"></label>
+                                    <input type="radio" name="rating5" id="rating5-2" value="2">
+                                    <label for="rating5-2"></label>
+                                    <input type="radio" name="rating5" id="rating5-3" value="3">
+                                    <label for="rating5-3"></label>
+                                    <input type="radio" name="rating5" id="rating5-4" value="4">
+                                    <label for="rating5-4"></label>
+                                    <input type="radio" name="rating5" id="rating5-5" value="5">
+                                    <label for="rating5-5"></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-img-top">
+                              <img src="kids/kidshoes/girlshoes1.jpg" alt="Image 1">
+                              <img src="kids/kidshoes/girlshoes5.jpg" alt="Image 2" class="hover-img">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Urban Girls</h5>
+                                <p class="card-text">₱1,000</p>
+                                <a href="#" class="btn btn-primary" style="color: black; background-color: #E6D1C9;">Add to 🛒</a>
+                                <div class="rating6">
+                                    <span>Rate this product :</span>
+                                    <input type="radio" name="rating6" id="rating6-1" value="1">
+                                    <label for="rating6-1"></label>
+                                    <input type="radio" name="rating6" id="rating6-2" value="2">
+                                    <label for="rating6-2"></label>
+                                    <input type="radio" name="rating6" id="rating6-3" value="3">
+                                    <label for="rating6-3"></label>
+                                    <input type="radio" name="rating6" id="rating6-4" value="4">
+                                    <label for="rating6-4"></label>
+                                    <input type="radio" name="rating6" id="rating6-5" value="5">
+                                    <label for="rating6-5"></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <section>
+            <div class="container2">
+                <video id="dance1" preload="metadata" width="600" height="1000">
+                    <source src="123.mp4" type="video/mp4">
+                </video>
+                
+                <p><b>Square Closet's Site Safety.</b><br><br>At Square Closet we understand that safety and security are of the utmost importance to our users. We take this responsibility very seriously and have implemented a range of measures to ensure that our platform is as safe and secure as possible. We also have a dedicated team of security experts who monitor the site 24/7 to detect and prevent any suspicious activity. They work tirelessly to ensure that our platform is always up-to-date with the latest security measures and that all users are protected at all times. In addition, we have strict policies in place to prevent fraud and abuse. We take a zero-tolerance approach to any illegal or unethical behavior on our site and have systems in place to detect and investigate any potential violations. This includes regular audits and assessments to identify and address any vulnerabilities in our security infrastructure. At [your site name], the safety and security of our users is our top priority. We are committed to providing a safe and enjoyable experience for all users and will continue to invest in the latest technologies and practices to ensure that our platform remains secure and protected against potential threats.
+                    <br><br><br><br><br><br><br><b>About our Delivery Safety.</b><br><br>At Square Closet, we understand that safety and security are paramount when it comes to delivery services. We take every possible measure to ensure that your packages are delivered to you safely and securely. Our delivery vehicles are equipped with state-of-the-art safety features and are maintained to the highest standards. We regularly inspect and maintain our fleet to ensure that they are in top working condition and are safe to operate on the roads. We also have rigorous safety protocols in place for our drivers. Our drivers undergo extensive safety training, including defensive driving techniques and safe handling of packages. They are equipped with safety gear such as high-visibility vests and hard hats to ensure their safety on the job. Additionally, we have implemented a range of security measures to protect your packages during delivery. Our drivers are required to follow strict protocols to ensure that packages are delivered to the correct recipient and are not left unattended in public areas. We also use advanced tracking technologies to monitor the progress of your packages and provide real-time updates on their delivery status. We are committed to providing a safe and secure delivery experience for our customers. We continually assess and improve our safety and security protocols to ensure that we are providing the best possible service to our customers. We understand that your packages are valuable and we take every precaution to ensure that they arrive at their destination safely and securely.</p>
+            </div>
+        </section>
+        
+        <script>
+            const slides = document.querySelectorAll('.hero-slide');
+            const intervalTime = 5000;
+            let slideIndex = 0;
+
+            function nextSlide() {
+                slides[slideIndex].classList.remove('active');
+                slideIndex++;
+                if (slideIndex >= slides.length) {
+                    slideIndex = 0;
+                }
+                slides[slideIndex].classList.add('active');
+                setTimeout(nextSlide, intervalTime);
+            }
+
+            nextSlide();
+
+            var video = document.getElementById("dance1");
+    
+            video.muted = true;
+            video.autoplay = true;
+            video.controls = false;
+    
+            video.addEventListener("ended", function() {
+            video.currentTime = 0;
+            video.play();
+            }, 
+
+            false);
+
+        </script>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <!-- Footer Section -->
+        <footer>
+            <div class="about">
+                <h2>About Us</h2>
+                <p>Square Closet is the country's favorite online Clothing store. We make it easier for Filipinos to enjoy the latest fashion trends – from men's clothes, women's clothes, kid's clothes, to various accessories. You win with Square Closet's combination of unbeatable price, outstanding quality, and exceptional customer service.</p>
+            </div>
+            <div class="contact">
+                <h2>Contact Us</h2>
+                <p>64 Main Street</p>
+                <p>Manila, Philippines</p>
+                <p>Email: <a href="mailto:contact@mywebsite.com">squarecloset@mywebsite.com</a></p>
+                <p>Phone: 0912 345 6789</p>
+            </div>
+            <div class="social-icons">
+            <a href="https://www.facebook.com/"><img src="facebook-circled.png" alt="Facebook"></a>
+            <a href="https://www.linkedin.com/"><img src="telegram-app.png" alt=""></a>
+            <a href="https://twitter.com/"><img src="twitter-circled.png" alt="Twitter"></a>
+            <a href="https://www.pinterest.com/"><img src="pinterest.png" alt="Pinterest"></a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,131 @@
+/*Header*/
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    background-color: white;
+    color: white;
+    height: 0px;
+}
+nav li {
+    position: relative;
+}
+nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    transition: color 0.2s ease-in-out;
+}
+nav a:hover {
+    color: #E6D1C9;
+}
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    z-index: 1;
+}
+nav ul ul li {
+    display: block;
+    padding: 10px;
+    background-color: white;
+}
+nav ul ul li a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+nav ul ul li a:hover {
+    color: #E6D1C9;
+}
+nav ul li:hover > ul {
+    display: block;
+}
+
+/*Sign in*/
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f8f8f8;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    border: none;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    background-color: #E6D1C9;
+    color: #575757;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0c7cd5;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.register-link a {
+    color: #2196f3;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
