@@ -194,3 +194,18 @@ h1 {
     color: #fff;
     cursor: pointer;
 }
+#additional-photos {
+    display: flex;
+    margin-top: 20px;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+}
+
+#additional-photos img {
+    width: 150px;
+    height: 150px;
+}
+.bordered {
+    border: 1px solid black;
+}
