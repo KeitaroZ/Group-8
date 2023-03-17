@@ -479,6 +479,7 @@ label {
   position: relative;
   width: 100%;
   height: 100%;
+
 }
 
 .card-img-top img {
@@ -507,5 +508,10 @@ label {
 }
 .card-img-top {
   transition: transform 0.3s ease-in-out;
+}
+.card-title casual dress{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
